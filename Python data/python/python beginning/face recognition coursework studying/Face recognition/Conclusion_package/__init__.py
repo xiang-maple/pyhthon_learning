@@ -6,3 +6,6 @@
 # @Project : infer.py
 
 # __all__ = ['Love_again']
+
+def initi():
+    print("intiuse")

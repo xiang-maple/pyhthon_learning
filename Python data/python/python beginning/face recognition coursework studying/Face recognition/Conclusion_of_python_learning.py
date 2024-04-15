@@ -444,14 +444,20 @@ if and elif can be more , but else can't be right
 
 # """---moude---"""
 # """--first--"""
-# # import Conclusion_package.Love_again
-# # import Conclusion_package.hello  # except the init.py other pyfile we should add their name to ues its function
-# # Conclusion_package.Love_again.whet(2)
-# # Conclusion_package.hello.Hello()
-# #
+# initial test
+# import Conclusion_package
+#
+# Conclusion_package.initi()
+
+
+# import Conclusion_package.Love_again
+# import Conclusion_package.hello  # except the init.py other pyfile we should add their name to ues its function
+# Conclusion_package.Love_again.whet(2)
+# Conclusion_package.hello.Hello()
+#
 # # """--second--"""
-# # from Conclusion_package import hello
-# # hello.Hello()
+# from Conclusion_package import hello
+# hello.Hello()
 #
 # """--third--"""
 # from Conclusion_package import *
@@ -461,8 +467,8 @@ if and elif can be more , but else can't be right
 # """--fourth--"""
 # from Conclusion_package import Love_again as le
 # le.whet(2)
-#
 # """--fifth--"""
 #
 # import Conclusion_package.Love_again as al
 # al.whet(2)
+

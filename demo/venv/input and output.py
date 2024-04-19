@@ -8,11 +8,11 @@
 -- First way %
 """
 age = 19
-print("my age is %d" %age)
+# print("my age is %d" %age)
 name = "coxi"
-print("my name is %s" %name)
-
-print("my name is %s,my age is %d"%(name,age))
+# print("my name is %s" %name)
+#
+# print("my name is %s,my age is %d"%(name,age))
 
 """
 -- Second format()
@@ -24,13 +24,13 @@ print(str)
 
 # 2. index get
 str1 = "my name is {0}, me age is {2}".format(name,age,age)
-print(str)
+print(str1)
 
 # 3. keyword get
 str3 ="my name is {name}, me age is {age}".format(age=19,name="Coxi")
 
 # 4. dicmap get
-info = {"name":"coxi","age":19}
+info = {"name": "coxi", "age": 19}
 str4 ="my name is {name}, me age is {age}".format(**info)
 print(str4)
 

@@ -5,3 +5,4 @@
 """---assignment---"""
 a,b,c = 100,"nihao",31.32
 print(a,b,c)  # can not use the \n
+print("i love you\n")  # use it in string
